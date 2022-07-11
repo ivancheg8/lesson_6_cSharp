@@ -13,7 +13,7 @@ void showArray(int[] array)
     Console.WriteLine();
 }
 
-int[] fillingArray(int size)
+int[] fillingArray(int size) //наполнение массива числами пользователя
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
@@ -25,7 +25,7 @@ int[] fillingArray(int size)
     return array;
 }
 
-int findPositive(int[] array)
+int findPositive(int[] array) //поиск положительных чисел в массиве
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
