@@ -13,7 +13,7 @@ void showArray(int[] array)
     Console.WriteLine();
 }
 
-int[] fillingArray(int size) //наполнение массива числами пользователя
+int[] fillingArray(int size) //создание и наполнение массива числами пользователя
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
